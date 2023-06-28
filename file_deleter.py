@@ -10,7 +10,7 @@ import os
 words = ['Mango', 'Apples', 'Guavas', 'Monkeys?', 'Grapes', 'Pineapples' ]
 
 #Enter the main file folder here whose sub-folders will be opened and the corresponding words will be deleted
-main = r"C:\Users\rishi\OneDrive\Desktop"
+main = r"C:\Users\User\OneDrive\Desktop"
 
 for root, dirs, files in os.walk(main): 
     # root means the path of the 'root folder(main variable)'
